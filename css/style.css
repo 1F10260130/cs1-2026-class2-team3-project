@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #89bcc1;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    padding: 500px 0px 0px 20px;
+    background-image: url("../images/image.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+h2 {
+    font-size: 30px;
+}
+
+h2#link1 {
+    background-color: rgb(123, 169, 255);
+}
+
+h2#link2 {
+    background-color: rgb(146, 255, 202);
+}
+
+h2#link3 {
+    background-color: rgb(255, 150, 237);
+}
+
+h2 a {
+    display: block;
+    padding: 300px 0px 0px 20px;
+}
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
