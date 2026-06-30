@@ -1,3 +1,22 @@
 h1{
-    
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+
+    padding: 10px;
+}
+
+.intro{
+    display: flex;
+    margin: 40px;
+    padding: 30px;
+}
+
+
+
+img{
+    width: 300px;
+    height: 300px;
 }
